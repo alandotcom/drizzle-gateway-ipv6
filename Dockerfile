@@ -2,7 +2,7 @@
 FROM ghcr.io/drizzle-team/gateway:1.2.0 AS source
 
 # Stage 2: Alpine with socat
-FROM oven/bun:1.3.9-alpine
+FROM oven/bun:1.3.12-alpine
 
 LABEL org.opencontainers.image.source=https://github.com/alandotcom/drizzle-gateway-ipv6
 
