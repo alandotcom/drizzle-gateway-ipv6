@@ -1,5 +1,5 @@
 # Stage 1: Get drizzle-gateway files
-FROM ghcr.io/drizzle-team/gateway:1.6.2 AS source
+FROM ghcr.io/drizzle-team/gateway:1.7.0 AS source
 
 # Stage 2: Alpine with socat
 FROM oven/bun:1.3.14-alpine
